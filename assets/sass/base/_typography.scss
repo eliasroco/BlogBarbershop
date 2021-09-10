@@ -1,0 +1,43 @@
+h1 {
+  font-size: $font-xx-large;
+  font-family: $font-accent;
+  font-weight: $font-black;
+  font-style: italic;
+  width: 50%;
+  @media (max-width: 576px) {
+    font-size: $font-x-large;
+    text-align: center;
+    max-width: 58%;
+  }
+}
+
+p{
+  font-family: $font-accent;
+  font-size: $font-medium;
+  font-weight: $font-regular;
+  line-height: 2.5em;
+  text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: $nickel;
+}
+h3{
+  font-size: $font-x-large;
+  font-family: $font-accent;
+  font-weight: $font-black;
+  font-style: italic;
+  
+}
+a{
+  font-family: $font-primary;
+  font-weight: $font-light;
+  font-size: $font-large;
+  color: $ruddy_pink;
+}
+h6{
+  font-family: $font-accent;
+  font-weight: $font-light;
+  font-size: $font-small;
+  line-height: 2.5em;
+}

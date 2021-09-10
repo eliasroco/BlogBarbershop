@@ -1,0 +1,64 @@
+.custom-button{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    font-size: $font-medium;
+    text-align: center;
+}
+.custom-button__comentar{
+    margin-left: 1rem;
+    background: $nickel;
+    border-radius: 50rem;
+    border: 1px solid $nickel;
+    color: $white;
+    padding: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    font-size: 1rem;
+        &--medium {
+            padding:1rem;
+    }
+        &--small {
+            padding: .7rem;
+    }
+        &:hover{
+            background-color: $light-gray;
+            border: 1px solid $light-gray
+    }
+        &:focus{
+            background-color: $nickel;
+            border: 2px solid $light-gray;
+    }
+}
+
+.custom-button__compartir{
+    margin-left: 1rem;
+    background: $nickel;
+    border-radius: 50rem;
+    border: 1px solid $nickel;
+    color: $white;
+    padding: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    font-size: 1rem;
+        &--medium {
+            padding:1rem;
+    }
+        &--small {
+            padding: .7rem;
+    }
+        &:hover{
+            background-color: $light-gray;
+            border: 1px solid $light-gray
+    }
+        &:focus{
+            background-color: $nickel;
+            border: 2px solid $light-gray;
+    } 
+    @media (max-width: 576px) {
+        margin-left: .8rem;
+
+}
+ }

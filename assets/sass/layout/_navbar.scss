@@ -1,0 +1,27 @@
+.custom-nav {
+  background-color: $eerie_black;
+
+  &__image {
+    width: 78.37px;
+    margin-left: 3.5rem;
+  }
+  &__link {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10rem;
+    padding: 1rem;
+  }
+  &__item {
+    color: $white;
+    &:hover {
+      color: $ruddy_pink;
+    }
+  }
+}
+.custom-toggler {
+  border-color: $white;
+  &__icon {
+    background-image: $toggle-color;
+  }
+}
+

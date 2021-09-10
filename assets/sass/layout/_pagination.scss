@@ -1,0 +1,67 @@
+//This file is for create your style with relation on space of pagination
+
+  .custom-pagination{
+    $bloque: &; 
+    position: relative;
+    left: 44%;
+    transform: translate(-50%, 0%);
+    padding-top: 30px;
+    height: 134px;
+    width: 350px;
+    margin-left: 5rem;
+    @media (max-width: 576px) { 
+        margin-left: 0;
+        left: 5rem;
+        width:90px;
+    }   
+   &__list {
+        display: flex;
+        @include list-unstyled();
+        font-family: $font-primary;
+        font-size: $font-medium;    
+    }
+    &__item {
+        border: 1px solid $borde_pag;
+        background-color: $white;
+        
+        &:first-child {
+            border-top-left-radius: 50rem;
+            border-bottom-left-radius: 50rem;
+        }
+        &:last-child {
+            border-top-right-radius: 50rem;
+            border-bottom-right-radius: 50rem;
+        }
+        &--active {
+            background-color: $nickel;
+            padding: 0.8rem 1.2rem;
+            color: $white;
+            #{$bloque}__link, 
+            #{$bloque}__link:hover {        
+                color: $white;
+            }
+        }
+        padding: 0.8rem 1.2rem;
+        @media (max-width: 576px) { 
+            padding: .8rem  .6rem;
+        }   
+    }
+    &__item:hover {
+        border: 1px solid $nickel;
+    }
+    &__link,
+    &__link:hover {
+        text-decoration: none;
+        color: $eerie-black;
+        cursor: pointer;
+    }
+    @media (max-width: 576px) { 
+        margin-left: 0;
+    }   
+}
+
+.fondo_pagination{
+    width: 100%;
+    background-color: $platinum;
+
+}

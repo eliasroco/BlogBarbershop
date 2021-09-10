@@ -1,0 +1,25 @@
+//You can change the name in this file
+// main.scss # Manifest File
+// abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+// Vendors
+@import "vendors/scss/bootstrap.scss";
+// Base
+@import "base/reset";
+@import "base/typography";
+@import "base/base";
+// Layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/navbar";
+@import "layout/article";
+@import "layout/footer";
+@import "layout/pagination";
+// Components
+@import "components/buttons";
+@import "components/inputs";
+@import "components/links";
+// Pages
+// Theme
+

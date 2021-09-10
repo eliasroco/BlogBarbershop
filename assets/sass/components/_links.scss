@@ -1,0 +1,26 @@
+.custom-article__link{
+    text-decoration: none;
+    font-family: $font-primary;
+    margin-left: 2rem;
+    &--primary{
+        color: $ruddy-pink;
+    }
+    &--secondary{
+        color: $raisin_black;
+    }
+    &--light{
+        color: $light-gray;
+    }
+    &--dark{
+        color: $eerie-black ;
+    }
+    &:hover{
+        color: $raisin-black;
+    }
+    &:active{
+        color: $platinum;
+    }
+    &::before{
+        content: '@';
+    }
+}
